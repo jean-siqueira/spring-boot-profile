@@ -5,4 +5,5 @@ deploy:
  provider: heroku
  api-key: 
   secure: $HEROKU_API_KEY
+ on: staging
  app: spring-boot-profile
